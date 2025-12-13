@@ -82,22 +82,15 @@ body {
     object-fit: cover;
     opacity: .4;
 }
-.hero-img span {
-    position: relative;
-    font-size: 40px;
-    color: #ccc;
-    border: 4px solid #ccc;
-    padding: 10px 20px;
-}
 
 .top-banner {
-height: 300px;
-background: #000002;
-color: #aaa;
-display: flex;
-align-items: center;
-justify-content: center;
-margin-bottom: 30px;
+    height: 300px;
+    background: #000002;
+    color: #aaa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
 }
 
 .top-banner img {
@@ -129,6 +122,34 @@ margin-bottom: 30px;
     justify-content: center;
     align-items: center;
     margin-bottom: 10px;
+}
+
+.contact-layout {
+    display: flex;
+    gap: 40px;
+}
+
+
+.contact-info {
+    width: 30%;
+    line-height: 1;
+}
+
+
+.map-box {
+    flex: 1;
+    height: 300px;
+    background: #333;
+    color: #777;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0px 30px #000002;
+}
+
+.map-box img {
+    width: 100%;
+    height: 100%;
 }
 
 
